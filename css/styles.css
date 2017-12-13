@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+
+body { 
+	font: 300, 'Lato', Arial, sans-serif;
+}
+
+.wrap {
+	width: 1200px;
+	height: 600px;
+	margin: 100px auto;
+	background: #fdde7e;
+}
+
+.price {
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #02995b;
+	text-align: center;
+}
+
+.card {
+ 	align-self: center;
+} 
+
+.title {
+	margin-bottom: 60px;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.text {
+	width: 150px;
+	margin: 0 110px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.2; 
+	text-align: center;
+}
+
+.flex-container {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+ 	align-items: center;
+}
+
+.flex-column {
+	width: 350px;
+	padding: 35px 0;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 3px 1px 1px rgba(0, 0, 0, .2);
+	transition: all .25s linear;
+	cursor: pointer;
+	display: flex;
+    flex-flow: column;
+}
+
+.flex-column:hover,
+.flex-column:focus,
+.flex-column:active,
+.active {
+	transform: scale(1.1);
+	box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .1);
+}
+
